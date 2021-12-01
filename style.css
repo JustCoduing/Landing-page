@@ -7,9 +7,11 @@ body {
 /*Website Top Start*/
 .header
 {
-    border:solid ;
+   
     background:#1F2937;
     padding: 0px 100px 40px 100px;
+    display: flex;
+    flex-direction: column;
 }
 .logo
 {
@@ -47,8 +49,7 @@ ul{
     display: flex;
     margin-top: 40px;
     width: 900px;
-    
-  
+    align-self: center;
 }
 .about h3
 {
@@ -102,3 +103,59 @@ ul{
     color:whitesmoke;
 }
 /*Website Top End*/
+
+/*Website Info Start*/
+.section
+{
+    
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.info
+{
+ 
+    font-size: 25px;
+    font-weight: 800;
+    margin:10px;
+}
+
+.info-block
+{
+    
+    height:100%;
+    width: 75%;
+    display: flex;
+   
+    width: 900px;
+    gap:0px;
+}
+.bloc
+{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image
+{
+    height:100px;
+    width:100px;
+    border:solid 3px #3882f6;
+    border-radius: 9px;
+}
+
+.bloc p 
+{
+  text-align: center;
+  font-size: 18px;
+  color:grey;
+  margin-top:2px;
+}
+
+
+
