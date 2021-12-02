@@ -157,7 +157,9 @@ ul{
   color:grey;
   margin-top:2px;
 }
+/*Info End*/
 
+/*Quote Start*/
 .quote-section
 {
    
@@ -191,6 +193,59 @@ ul{
     font-weight: 800;
     align-self: flex-end;
 }
+/*Quote End*/
+
+/*Newsletter Start*/
+
+.subscribe
+{
+    /*border:solid 1px;*/
+    height: 22vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Container 
+{
+   
+    width:100vh;
+    display: flex;
+    justify-content: space-evenly;
+   padding: 10px;
+   background: #3882f6;
+   border-radius: 15px;
+}
+
+.button-sub
+{
+   
+    align-self: center;
+    
+}
+.button-sub button 
+{
+    padding: 5px 20px;
+    background: #3882f6;
+    color: white;
+    border:solid 1.5px;
+    border-radius: 8px;
+
+}
+
+.sub-text h1
+{
+  font-size: 20px;
+  color: white;
+
+  
+}
+.sub-text p
+{
+    color:#E5E7EB
+}
+
+
 
 
 
