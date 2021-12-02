@@ -50,6 +50,7 @@ ul{
     margin-top: 40px;
     width: 900px;
     align-self: center;
+   
 }
 .about h3
 {
@@ -155,6 +156,40 @@ ul{
   font-size: 18px;
   color:grey;
   margin-top:2px;
+}
+
+.quote-section
+{
+   
+    height:25vh;
+    background: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top:50px;
+}
+.quote
+{
+    font-size:23px;
+    font-weight: lighter;
+    font-style: italic;
+    color:#1F2937;
+    text-align: center;
+    width:50vh;
+}
+.text
+{
+
+    display:flex;
+    flex-direction: column;
+}
+.author
+{
+    font-weight: 800;
+    align-self: flex-end;
 }
 
 
