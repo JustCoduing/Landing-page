@@ -244,7 +244,20 @@ ul{
 {
     color:#E5E7EB
 }
+/*Newsletter End*/
 
+/*Footer Start*/
+
+.footer 
+{
+   
+    height:65px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#F9FAF7;
+    background-color: #1F2937;
+}
 
 
 
