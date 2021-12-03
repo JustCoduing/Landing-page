@@ -260,5 +260,25 @@ ul{
 }
 
 
+button{
+ transition: transform .4s ease-out, background-color .1s ease-out,border .4s ease;
+}
 
+button:hover
+{
+    transform: scale(1.05);
+    cursor:pointer;
+    background-color: #F9FAF8;
+    color: #3882f6;
+    border: #3882f6 solid 1.5px;
+}
 
+li
+{
+transition: transform .2s ease-out;
+}
+
+li:hover
+{
+    transform:scale(1.08)
+}
