@@ -258,8 +258,9 @@ ul{
     color:#F9FAF7;
     background-color: #1F2937;
 }
+/*Footer End*/
 
-
+/*Minor Changes*/
 button{
  transition: transform .4s ease-out, background-color .1s ease-out,border .4s ease;
 }
